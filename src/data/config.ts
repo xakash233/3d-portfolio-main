@@ -15,7 +15,7 @@ const config = {
     "interactive websites",
     "Coding Ducks",
     "The Booking Desk",
-    "Ghostchat",
+    "Talent Turbo",
     "web design",
     "GSAP",
     "React",

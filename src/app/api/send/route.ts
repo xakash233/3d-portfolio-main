@@ -22,7 +22,6 @@ export async function POST(req: Request) {
       return Response.json({ error: parsed.error?.message }, { status: 400 });
     }
 
-    // If no API key, skip sending
     if (!resend) {
       console.warn("RESEND_API_KEY is missing. Skipping email send.");
       return Response.json({ skipped: true, message: "Email sending disabled" }, { status: 200 });
